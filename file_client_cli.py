@@ -91,9 +91,5 @@ if __name__ == '__main__':
     server_address = ('0.0.0.0', 6666)
 
     remote_list()
-    remote_get('donalbebek.jpg')
-
-    remote_upload('test.txt')
-    remote_list()
-    remote_delete('mountain.jpg')
+    remote_delete('barca.jpg')
     remote_list()
